@@ -53,7 +53,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #Load the slide file (svs) into an object.
-slide = open_slide("images/whole_slide_image.svs")
+slide = open_slide("images/5872.svs")
 
 slide_props = slide.properties
 print(slide_props)
